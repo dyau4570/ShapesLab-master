@@ -12,10 +12,12 @@ public abstract class Circle extend Shape {
     }
 
     public double getArea() {
-        return this.radius*this.radius*Math.PI;
+        double y = this.radius*this.radius*Math.PI;
+        return y;
     }
 
     public double getPerimeter() {
-       return this.radius*Math.PI*2;
+        double v = this.radius * Math.PI * 2;
+        return v;
     }
 }
